@@ -1,0 +1,108 @@
+body {
+    background-image: url(images/homepage1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#navigation-bar { /*the navigation bar on top of the page*/
+    width: 1500px;
+    height: 40px;
+    color: transparent;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-bar-section { 
+    border-right: 1px solid #fdb44b;
+    color: rgb(145, 218, 169);
+    height: 15px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    text-shadow: #000000 5px;
+}
+
+#navigation-last-element {
+    color: rgb(145, 218, 169);
+    height: 15px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    padding: 10px;
+    text-shadow: #000000 5px;
+}
+
+#navigation-last-element a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px darkgray;
+}
+
+.navigation-bar-section a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px darkgray;
+}
+
+.nagivation-elements {
+    border-right: 1px solid #fdb44b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title { /*the definitions for the 'The Film Archive' title*/
+    position: absolute;
+    align-content: center;
+    text-align: center;
+}
+h1 {
+    font-family: New Century Schoolbook, Times New Roman, serif;
+    color: #fdb44b;
+    position: fixed;
+    top: 20%;
+    left: 150px;
+    font-size: 100px;
+
+}
+
+#footer {
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#slogan {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: medium;
+    position: fixed;
+    top: 37%;
+    left: 167px;
+    text-shadow: 10px black;
+    
+}
+
+#browse-button {
+    position: fixed;
+    top: 45%;
+    left: 167px;
+    box-shadow: 0px 0px 5px 0px #000000;
+	background-color:transparent;
+	border:1px solid #fdb34b;
+	display:inline-block;
+	cursor:pointer;
+	color:#fdb34b;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
